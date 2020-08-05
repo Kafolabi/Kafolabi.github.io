@@ -1,9 +1,16 @@
-tml>
+<html>
   <!DOCTYPE>
   <head>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <style>
+    body {
+    background: #1d1d26;
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+      margin: 0;
+  }
     .image {
     
      width: 250px;
@@ -32,17 +39,29 @@ tml>
      border-radius: 50% 0 0 50%;
     ;
 }
-   
+  @media screen and (max-width: 500px) {
+    #main {
+        font-size: 30px;
+    }
+    }
+    @media screen and (min-width: 500px) {
+      #main {
+        font-size: 50px;
+      }
+    }
    #main {
     font-family: Comic Sans MS;
-    font-size: 15vw;
+    
     text-align: center;
     color: #fca400;
     text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-     width: 
+
+          
+    
     }
+    
   #title {
-    font-size: 40px;
+font-size: 30px;
       ;
     font-family: Calibri;
     text-align: center;
@@ -51,23 +70,13 @@ tml>
     margin: -20px;
     width
   }
-  body {
-    background: #1d1d26;
-    backgoround-attachment: fixed;
-    width: device-width;
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
+  
     
  #topcolumn {
     background-color: #333;
     overflow: hidden;
-   ;
-    position: ;
-   margin: -10px;
-    top: 0px;
-    left: 0px;
-   width: device-width;
+
+  
 }
 
 #topcolumn a {
@@ -78,6 +87,8 @@ tml>
   text-decoration: none;
   font-size: 25px;
    position: relative;
+    padding: 14px 16px;
+  font-size: 20px;
   }
 #topcolumn a:hover {
   background-color: #b87d11;
@@ -120,6 +131,7 @@ tml>
        text-shadow: 2px 2px 8px #FF0000;
       font-size: 20px;
     }
+   
  
 </style>
 <div id="topcolumn"> 
@@ -137,3 +149,4 @@ tml>
   <p>Explore our <strong>Contacts</strong>, <strong>About us</strong>, <strong>Orders</strong> and feel free to <strong>search</strong> for anything related to our enteprise</p>
   <a div class="whatsapp" href="https://api.whatsapp.com/send?phone=2348033119456">Follow us on whatsapp
   </a>
+ 
