@@ -70,8 +70,9 @@ font-family: 'Sofia', cursive;
     }
    #main {
  
-
+ 
     text-align: center;
+     display: block;
     color: #fca400;
     text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     
@@ -87,16 +88,7 @@ font-family: 'Sofia', cursive;
     margin: -20px;
     width
   }
-  
-    
- #topcolumn {
-    background-color: #333;
-    overflow: hidden;
-
-  
-}
-
-#topcolumn a {
+ #topcolumn a {
   float: left;
   color: #fca400;;
   
@@ -111,7 +103,10 @@ font-family: 'Sofia', cursive;
   background-color: #b87d11;
   color: black;
 }
-  
+    
+    #home {
+      background-color: #0e4496 !important;
+    } 
  
     p {
       color: #fca400;
@@ -129,26 +124,12 @@ font-family: 'Sofia', cursive;
       font-size: 30px;
       } 
       }
-    a {
-      text-decoration: none;
+    .panchors {
+    
+    text-decoration: none;
+  border-bottom: #EA215A 0.125em solid;
      
     }
-    a:link {
-  text-decoration: ;
-}
-
-a:visited {
-  text-decoration: ;
-}
-
-a:hover {
-  
-    }
-
-a:active {
-  text-decoration: underline;
-}
- 
  .whatsapp {
   border: 2px solid #61e310;
   background-color: #ffa200;
@@ -157,33 +138,35 @@ a:active {
   color: #ff0000;
  text-align: center;
   font-family: 'Sofia', cursive;
-  width: 200px;
+  width: 250px;
   float: right;
   padding: 8px 0px 8px 0px;
      box-shadow: inset 10px 5px 25px 5px #1072e3, 5px 5px 12px 2px #1072e3;
  margin: 25px;
  text-decoration: none;
-     
-   
+   font-size: 20px;
+     }
+    
+    .whatsapp:hover {
+      width: 270px; 
+      font-size: 25px;
     }
+    .whatsapp:active {
+      text-shadow: 2px 2px 8px #c71a56;
+    }
+    
     p:hover {
        text-shadow: 2px 2px 8px #FF0000;
 
     }
-    p.bold {
-      font-weight: bold;
-    }
-    strong {
-     text-decoration: none;
-      text-decoration-color: #EA215A;
-  text-decoration-thickness: .125em;
-  text-underline-offset: 1.5px;
+   ;
     }
     
+    }
     
 </style>
 <div id="topcolumn"> 
-   <a id="active" href="#" >Home</a>
+   <a id="home" href="#" >Home</a>
   <a href="https://codepen.io/Kafolabi2020/pen/LYpvjKX?editors=1000">Contacts</a>
   <a href="about us">About us</a>
   <a href="search">Search</a>
@@ -194,7 +177,7 @@ a:active {
   <h3 id="title"> ...the cradle of designs!</h3>
  
   <div class="image"></div>
-  <p>Explore more <strong> <u><a href="">about us</strong></a></u>, our <strong>products</strong>, <strong>contacts</strong> and feel free to <strong>search</strong> for anything related to our enteprise</p>
+  <p>Explore more <strong> <a href="" class="panchors">about us</strong></a>, our  <strong>products</strong>, contact us for <b>orders</b> and feel free to <strong>search</strong> for anything related to our enteprise</p>
   <a div class="whatsapp" href="https://api.whatsapp.com/send?phone=2348033119456">Follow us on whatsapp
   </a>
  
