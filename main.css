@@ -152,7 +152,7 @@ font-family: 'Sofia', cursive;
 <!--End of styles for home page-->
 
 <!-- Styles for about us-->
-h1 {
+h1.aboutus {
   font-family: 'Merienda One', cursive;
       color: #fca400;
   padding: 10px;
