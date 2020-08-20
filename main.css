@@ -153,12 +153,12 @@ font-family: 'Sofia', cursive;
 
 
 
-h1 {
-  font-family: 'Merienda One', cursive;
-      color: #fca400;
-  padding: 10px;
-  text-align: center;
-  text-shadow: 0 10px 20px rgba(0.5,0.5,0.5,0.5), 0 6px 6px rgba(0.5,0.5,0.5,0.5);
+.heading {
+  font-family: 'Merienda One', cursive !important;
+      color: #fca400 !important;
+  padding: 10px !important;
+  text-align: center !important;
+  text-shadow: 0 10px 20px rgba(0.5,0.5,0.5,0.5), 0 6px 6px rgba(0.5,0.5,0.5,0.5) !important;
 }
 
 
