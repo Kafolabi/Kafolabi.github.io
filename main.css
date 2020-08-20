@@ -1,5 +1,22 @@
 
 
+<!-- Styles for about us-->
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 220px;
+  border-radius: 50%;
+}
+
+#heading {
+  font-family: 'Merienda One', cursive;
+      color: #fca400;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 0 10px 20px rgba(0.5,0.5,0.5,0.5), 0 6px 6px rgba(0.5,0.5,0.5,0.5);
+}
+
+<!--Styles for home page -->
 body {
     background: #1d1d26;
     
@@ -150,22 +167,7 @@ font-family: 'Sofia', cursive;
 
 
 <!--End of styles for home page-->
-<!-- Styles for about us-->
 
 
 
 
-#avatar {
-  vertical-align: middle;
-  width: 200px;
-  height: 220px;
-  border-radius: 50%;
-}
-
-#heading {
-  font-family: 'Merienda One', cursive;
-      color: #fca400;
-  padding: 10px;
-  text-align: center;
-  text-shadow: 0 10px 20px rgba(0.5,0.5,0.5,0.5), 0 6px 6px rgba(0.5,0.5,0.5,0.5);
-}
