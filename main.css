@@ -153,13 +153,7 @@ font-family: 'Sofia', cursive;
 <!-- Styles for about us-->
 
 
-#aboutus {
-  font-family: 'Merienda One', cursive;
-      color: #fca400;
-  padding: 10px;
-  text-align: center;
-  text-shadow: 0 10px 20px rgba(0.5,0.5,0.5,0.5), 0 6px 6px rgba(0.5,0.5,0.5,0.5);
-}
+
 
 .avatar {
   vertical-align: middle;
@@ -168,3 +162,10 @@ font-family: 'Sofia', cursive;
   border-radius: 50%;
 }
 
+#aboutus {
+  font-family: 'Merienda One', cursive;
+      color: #fca400;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 0 10px 20px rgba(0.5,0.5,0.5,0.5), 0 6px 6px rgba(0.5,0.5,0.5,0.5);
+}
