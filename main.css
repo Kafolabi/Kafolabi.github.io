@@ -1,6 +1,6 @@
 
 
-<!-- Styles for about us-->
+
 .avatar {
   vertical-align: middle;
   width: 200px;
@@ -16,7 +16,6 @@
   text-shadow: 0 10px 20px rgba(0.5,0.5,0.5,0.5), 0 6px 6px rgba(0.5,0.5,0.5,0.5);
 }
 
-<!--Styles for home page -->
 body {
     background: #1d1d26;
     
