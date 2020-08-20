@@ -155,14 +155,14 @@ font-family: 'Sofia', cursive;
 
 
 
-.avatar {
+#avatar {
   vertical-align: middle;
   width: 200px;
   height: 220px;
   border-radius: 50%;
 }
 
-#first {
+#heading {
   font-family: 'Merienda One', cursive;
       color: #fca400;
   padding: 10px;
