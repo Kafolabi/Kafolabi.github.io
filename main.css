@@ -162,7 +162,7 @@ font-family: 'Sofia', cursive;
   border-radius: 50%;
 }
 
-#heading {
+.heading {
   font-family: 'Merienda One', cursive;
       color: #fca400;
   padding: 10px;
