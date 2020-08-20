@@ -154,7 +154,7 @@ font-family: 'Sofia', cursive;
 <!--End of styles for home page-->
 
 
-#heading {
+h1 {
   font-family: 'Merienda One', cursive;
       color: #fca400;
   padding: 10px;
