@@ -168,7 +168,6 @@ font-family: 'Sofia', cursive;
    
 }
 
-@media screen and (min-width: 500px) {
   .form1 {
    width: device-width;
     height: 425px;
@@ -179,7 +178,7 @@ font-family: 'Sofia', cursive;
     padding-left: 7px;
     box-shadow: 0 0px 25px 0 #13e836, 2px 8px 20px 0 #13e836;
   }
-}
+
 
    
 
