@@ -168,7 +168,7 @@ font-family: 'Sofia', cursive;
   margin-right: auto;
   width: 300px;
   height: 320px;
-  border-radius: 50%;
+  clip-path: polygon(27% 0, 74% 0, 100% 27%, 100% 73%, 73% 100%, 23% 100%, 0 70%, 0 26%);
    
 }
 
