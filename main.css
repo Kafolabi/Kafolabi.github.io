@@ -161,13 +161,26 @@ font-family: 'Sofia', cursive;
   text-shadow: 0 10px 20px rgba(0.5,0.5,0.5,0.5), 0 6px 6px rgba(0.5,0.5,0.5,0.5) !important;
 }
 
-
 .avatar {
- display: block;
-    text-align: left;
- 
- 
+  display: block;
+  text-align: left;
   clip-path: polygon(27% 0, 73% 0, 100% 27%, 100% 73%, 73% 100%, 26% 100%, 0 70%, 0 26%);
    
 }
+
+@media screen and (min-width: 500px) {
+  .form1 {
+   width: device-width;
+    height: 425px;
+    border: 5px solid green;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    box-shadow: 0 0px 25px 0 #13e836, 2px 8px 20px 0 #13e836;
+  }
+}
+
+   
+
 
