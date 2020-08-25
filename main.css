@@ -161,11 +161,24 @@ font-family: 'Sofia', cursive;
   text-shadow: 0 10px 20px rgba(0.5,0.5,0.5,0.5), 0 6px 6px rgba(0.5,0.5,0.5,0.5) !important;
 }
 
-.avatar {
+.avatar1 {
   display: block;
   text-align: left;
+  background: url('https://www.w3schools.com/w3images/avatar1.png');
+  background-size: contain;
   clip-path: polygon(27% 0, 73% 0, 100% 27%, 100% 73%, 73% 100%, 26% 100%, 0 70%, 0 26%);
-   
+  width: 200px;
+ height: 200px;
+}
+
+.avatar2 {
+  display: block;
+  text-align: left;
+   background: url('https://www.w3schools.com/w3images/avatar2.png');
+  background-size: contain;
+  clip-path: polygon(27% 0, 73% 0, 100% 27%, 100% 73%, 73% 100%, 26% 100%, 0 70%, 0 26%);
+  width: 200px;
+ height: 200px;
 }
 
   .form1 {
@@ -178,8 +191,22 @@ font-family: 'Sofia', cursive;
     padding-left: 7px;
     box-shadow: 0 0px 25px 0 #13e836, 2px 8px 20px 0 #13e836;
   }
+   .parent {
+   filter: drop-shadow(-0.1rem -0.1rem 0.4rem rgba(19, 232, 54));
+}
+     .no-shadow {
+  filter: none;
+     }     
 
+     
 
-   
-
+#vl {
+  
+  border-left: 5.2px solid green;
+  height: 410px;
+  position: absolute;
+  left: 217px;
+  
+  
+}
 
