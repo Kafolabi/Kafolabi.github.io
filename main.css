@@ -161,17 +161,56 @@ font-family: 'Sofia', cursive;
   text-shadow: 0 10px 20px rgba(0.5,0.5,0.5,0.5), 0 6px 6px rgba(0.5,0.5,0.5,0.5) !important;
 }
 
-.avatar1 {
+.parent {
+   filter: drop-shadow(-0.1rem -0.1rem 0.4rem rgba(19, 232, 54));
+     
+}
+      .no-shadow {
+  filter: none;
+     }
+.order {
+  background-color: #0275d8;
+    border-radius: 5px;
+}
+     
+
+
+.paragraph {
+  color: #fca400;
+  margin-left: 15px;
+  margin-right: 15px;
+   font-family: 'Sofia', cursive;
+ position: relative;
+
+} 
+.abouth3 {
+  font-family: 'Sofia', cursive;
+  text-align: right;
+  padding-right: 35px;
+  color: #fca400;
+}
+.paragraph:hover {
+  text-shadow: 2px 2px 8px #FF0000;
+}
+@media screen and (min-width: 1000px) {
+ .paragraph {
+   font-size: 22px;
+   line-height: 1.59em;
+     
+  }
+  .avatar1 {
   display: block;
   text-align: left;
-  background: url('https://www.w3schools.com/w3images/avatar1.png');
+ 
   background-size: contain;
-  clip-path: polygon(27% 0, 73% 0, 100% 27%, 100% 73%, 73% 100%, 26% 100%, 0 70%, 0 26%);
+  clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
   width: 200px;
  height: 200px;
+  margin-left: -3px;
+  background-size: cover;
+ 
 }
-
-.avatar2 {
+  .avatar2 {
   display: block;
   text-align: left;
    background: url('https://www.w3schools.com/w3images/avatar2.png');
@@ -179,34 +218,222 @@ font-family: 'Sofia', cursive;
   clip-path: polygon(27% 0, 73% 0, 100% 27%, 100% 73%, 73% 100%, 26% 100%, 0 70%, 0 26%);
   width: 200px;
  height: 200px;
-}
-
-  .form1 {
+  }
+.form1 {
    width: device-width;
-    height: 425px;
+    
     border: 5px solid green;
     border-radius: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
-    padding-left: 7px;
+    padding-left: 10px;
     box-shadow: 0 0px 25px 0 #13e836, 2px 8px 20px 0 #13e836;
-  }
-   .parent {
-   filter: drop-shadow(-0.1rem -0.1rem 0.4rem rgba(19, 232, 54));
+    margin: 10px;
+    
 }
-     .no-shadow {
-  filter: none;
-     }     
-
-     
-
-#vl {
-  
-  border-left: 5.2px solid green;
-  height: 410px;
+  .vlhr {
+ border-left: 5.2px solid green;
+height: 419px;
   position: absolute;
-  left: 217px;
   
+  left: 240px;
+  top: 0px;
+  margin-top: 74px;
   
 }
+  .abouth3 {
+font-size: 30px;
+    padding-right: 90px;
+  }
+  .order { 
+    padding: 0px 10px 0px 10px;
+    
+    margin-left: 5px; 
+    box-shadow:  inset 0px 0px 5px 3.5px #404b54;  
+  }
+}
 
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .paragraph {
+    font-size: 17px;
+    line-height: 1.647em;
+    }
+.avatar1 {
+  display: block;
+  text-align: left;
+ 
+  background-size: contain;
+  clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
+  width: 200px;
+ height: 200px;
+  margin-left: -3px;
+  background-size: cover;
+ 
+}
+  .avatar2 {
+  display: block;
+  text-align: left;
+   background: url('https://www.w3schools.com/w3images/avatar2.png');
+  background-size: contain;
+  clip-path: polygon(27% 0, 73% 0, 100% 27%, 100% 73%, 73% 100%, 26% 100%, 0 70%, 0 26%);
+  width: 200px;
+ height: 200px;
+  
+}
+.form1 {
+   width: device-width;
+    
+    border: 5px solid green;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    box-shadow: 0 0px 25px 0 #13e836, 2px 8px 20px 0 #13e836;
+    margin: 10px;
+    
+}
+  .vlhr {
+ border-left: 5.2px solid green;
+height: 419px;
+  position: absolute;
+  
+  left: 240px;
+  top: 0px;
+  margin-top: 74px;
+  
+}
+  .order { 
+    padding: 0px 10px 0px 10px;
+    
+    margin-left: 5px; 
+    box-shadow:  inset 0px 0px 5px 3.5px #404b54;  
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 596px) {
+  .paragraph {
+    font-size: 14.5px;
+    line-height: 1.517em;
+  }
+.avatar1 {
+  display: block;
+  text-align: left;
+ 
+  background-size: contain;
+  clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
+  width: 200px;
+ height: 200px;
+  margin-left: -3px;
+  background-size: cover;
+ 
+}
+  .avatar2 {
+  display: block;
+  text-align: left;
+   background: url('https://www.w3schools.com/w3images/avatar2.png');
+  background-size: contain;
+  clip-path: polygon(27% 0, 73% 0, 100% 27%, 100% 73%, 73% 100%, 26% 100%, 0 70%, 0 26%);
+  width: 200px;
+ height: 200px;
+  
+}
+.form1 {
+   width: device-width;
+    
+    border: 5px solid green;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    box-shadow: 0 0px 25px 0 #13e836, 2px 8px 20px 0 #13e836;
+    margin: 10px;
+    
+}
+  .vlhr {
+ border-left: 5.2px solid green;
+height: 419px;
+  position: absolute;
+  
+  left: 240px;
+  top: 0px;
+  margin-top: 74px;
+  
+}
+  .order { 
+    padding: 0px 10px 0px 10px;
+    margin-left: 5px; 
+    box-shadow:  inset 0px 0px 5px 3.5px #404b54;  
+  }
+  .abouth3 {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 595px) {
+ 
+  .avatar1 {
+   
+  text-align: none;
+  
+  background-size: initial;
+  clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
+  
+  
+    float: left;
+  width: 50%;
+  padding: 5px;
+    box-sizing: border-box;
+  }
+  .avatar2 {
+   display: flex;
+  text-align: none;
+   background-size: initial;
+  clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
+ float: left;
+  width: 50%;
+  padding: 5px;
+    box-sizing: border-box;
+  }
+  .avatar2 {
+    display: flex;
+  text-align: none;
+   background-size: initial;
+  clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
+ float: left;
+  width: 50%;
+  padding: 5px;
+    box-sizing: border-box;
+    
+  }
+  .form1 {
+    width: device-width;
+     margin-left: 10px;
+      margin-right: 10px;
+ float: left;
+    border: 5px solid green;
+    border-radius: 20px;
+        box-shadow: 0 0px 10px 0 #13e836, 0.7px 4px 13px 0 #13e836;
+     border-radius: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+  }
+  .paragraph {
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+  .order { 
+    padding: 7px 10px 7px 10px;
+     display: inline-block;
+ 
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow:  inset 0px 0px 5px 3.5px #404b54;  
+  }
+  .abouth3 {
+font-size: 19px;
+  float: left;
+ line-height: 1.7em; 
+    
+  }
+}
