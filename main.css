@@ -160,27 +160,6 @@ font-family: 'Sofia', cursive;
   text-align: center !important;
   text-shadow: 0 10px 20px rgba(0.5,0.5,0.5,0.5), 0 6px 6px rgba(0.5,0.5,0.5,0.5) !important;
 }
-.heading:before {
-        content: "";
-        display: block;
-        width: 130px;
-        height: 3.5px;
-        background: #fca400;
-        left: 0;
-        top: 50%;
-        position: absolute;
-      }
-      .heading:after {
-        content: "";
-        display: block;
-        width: 130px;
-        height: 3.5px;
-        background: #fca400;
-        right: 0;
-        top: 50%;
-        position: absolute;
-}
-
 
 .parent {
    filter: drop-shadow(-0.1rem -0.1rem 0.4rem rgba(19, 232, 54));
