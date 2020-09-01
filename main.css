@@ -149,9 +149,16 @@ font-family: 'Sofia', cursive;
     .ul:hover {
       background-color: black;
     }
+.minor {
+  float: right;
+  margin: 7px;
+  font-family: 'Sofia', cursive;
+  color: #fca400;
+  font-size: 15px;
+}
 
-
-
+<!--End of styles for home page-->
+<!--Beginning of styles for about us-->
 
 .heading {
   font-family: 'Merienda One', cursive !important;
