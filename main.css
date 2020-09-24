@@ -1,11 +1,10 @@
 
 
-
-
+<!-- CSS code for Home Page of website -->
+<!-- Code for body of Home page -->
 body {
-    background: #1d1d26;
-    
-    overflow-x: hidden;
+ overflow-x: hidden;
+ <!-- Vendor prefixes for microsoft, safari and Opera browsers -->
     -ms-overflow-x: hidden;
     -os-overflow-x: hidden;
     -o-overflow-x: hidden;
@@ -14,6 +13,7 @@ body {
       margin: 0;
       
   }
+
     .image {
     
      width: 250px;
@@ -28,6 +28,8 @@ body {
         -os-box-shadow: 2px 2px 2px #e39400;
         -o-box-shadow: 2px 2px 2px #e39400;
        }
+
+<!-- CSS pseudo element -->
    .image:after {
    content: "";
    padding-bottom: 100%;
@@ -44,14 +46,14 @@ body {
   margin: auto;
      width: 500px;
      border-radius: 50% 0 0 50%;
-    ;
+    
 }
     
- 
-    @media screen and (max-width: 500px) {
+<!-- MEDIA QUERIES FOR RESPONSIVENESS --> 
+<!-- If the browser's width is less than 500px -->    
+@media screen and (max-width: 500px) {
     #main {
         font-size: 40px;
-      font-family: 'Sofia', cursive;
       text-transform: capitalise;
       text-transform: bold;
       padding-top: 7px;
@@ -60,28 +62,26 @@ body {
     }
     #title {
       font-size: 27px;
-      font-family: 'Sofia', cursive;
-   
+     }
     }
-    }
+<!-- If the browser's width is more than 500px -->
     @media screen and (min-width: 500px) {
       #main {
         font-size: 70px;
-font-family: 'Sofia', cursive,  Comic Sans MS, Arial Narrow;
-        
         padding: 10px;
       }
       #title {
         font-size: 50px;
-        font-family: 'Sofia', cursive, Comic Sans MS, Arial Narrow;
+        
       }
     }
-    
+    <!-- Code that is common in all browser widths -->
    #main {
      text-align: center;
      display: block;
     color: #fca400;
     text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+       <!-- Vendor prefixes to ensure browser comptability for older versions of Chrome, internet explorer, mozilla, opera and safari -->
        -webkit-text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
        -ms-text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
        -moz-text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -89,19 +89,16 @@ font-family: 'Sofia', cursive,  Comic Sans MS, Arial Narrow;
        -o-text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
          
-    
-    
-    #title {
+   #title {
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    -webkit-text-shadow: 2px 2px 4px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+     <!-- Vendor prefixes to ensure browser comptability for older versions of Chrome, internet explorer, mozilla, opera and safari -->
+       -webkit-text-shadow: 2px 2px 4px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     -ms-text-shadow: 2px 2px 4px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     -moz-text-shadow: 2px 2px 4px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     -os-text-shadow: 2px 2px 4px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     -o-text-shadow: 2px 2px 4px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-        color: #fca400;
-    margin: -20px;
+         margin: -20px;
     padding: 25px;
   }
 
@@ -109,51 +106,44 @@ font-family: 'Sofia', cursive,  Comic Sans MS, Arial Narrow;
     #home {
       background-color: #0e4496 !important;
     } 
- 
+ <!-- Common code in all paragraphs -->
     p {
       color: #fca400;
       margin: 7px;
       font-family: 'Sofia', cursive;
     }
-    
+    <!-- MEDIA QUERIES FOR RESPONSIVENESS --> 
+<!-- If the browser's width is more than 500px -->  
       @media screen and (min-width: 500px) {
-    p {
+  p {
             font-size: 40px;
       }
     }
+ 
+<!-- If the browser's width is less than 500px -->  
       @media screen and (max-width: 500px) {
        p {
       font-size: 30px;
       } 
       }
     .panchors {
-    
+    <!-- Artificial underline -->
     text-decoration: none;
   border-bottom: #EA215A 0.125em solid;
      
     }
  .whatsapp {
   border: 2px solid #61e310;
-  background-color: #ffa200;
-  
-  border-radius: 10px;
-  color: #ff0000;
+  border-radius: 10px
  text-align: center;
-  font-family: 'Sofia', cursive;
-  width: 250px;
   float: right;
   padding: 8px 0px 8px 0px;
-     box-shadow: inset 10px 5px 25px 5px #1072e3, 5px 5px 12px 2px #1072e3;
-     -webkit-box-shadow: inset 10px 5px 25px 5px #1072e3, 5px 5px 12px 2px #1072e3;
-     -ms-box-shadow: inset 10px 5px 25px 5px #1072e3, 5px 5px 12px 2px #1072e3;
-     -moz-box-shadow: inset 10px 5px 25px 5px #1072e3, 5px 5px 12px 2px #1072e3;
-     -os-box-shadow: inset 10px 5px 25px 5px #1072e3, 5px 5px 12px 2px #1072e3;
-     -o-box-shadow: inset 10px 5px 25px 5px #1072e3, 5px 5px 12px 2px #1072e3;
- margin: 25px;
- text-decoration: none;
+      margin: 25px;
+ text-decoration: none !important;
    font-size: 20px;
      }
-    
+
+    <!-- CSS pseudo class for when user hovers over whatsapp -->
     .whatsapp:hover {
       width: 270px; 
       font-size: 22px;
@@ -161,19 +151,17 @@ font-family: 'Sofia', cursive,  Comic Sans MS, Arial Narrow;
     .whatsapp:active {
       text-shadow: 2px 2px 8px #c71a56;
     }
-    
+  <!-- CSS pseudo class for when user hovers over paragraph -->  
     p:hover {
        text-shadow: 2px 2px 8px #FF0000;
-       -webkit-text-shadow: 2px 2px 8px #FF0000;
+          <!-- Vendor prefixes to ensure browser comptability for older versions of Chrome, internet explorer, mozilla, opera and safari -->
+        -webkit-text-shadow: 2px 2px 8px #FF0000;
        -moz-text-shadow: 2px 2px 8px #FF0000;
        -ms-text-shadow: 2px 2px 8px #FF0000;
        -os-text-shadow: 2px 2px 8px #FF0000;
        -o-text-shadow: 2px 2px 8px #FF0000;
 }
    
-    }
-    
-    }
     .ul:hover {
       background-color: black;
     }
@@ -186,24 +174,14 @@ font-family: 'Sofia', cursive,  Comic Sans MS, Arial Narrow;
 }
 
 
-
+<!-- CSS Code for About Us section -->
 #heading {
-  font-family: 'Merienda One', cursive !important;
-      color: #fca400 !important;
   padding: 10px !important;
   text-align: center !important;
   text-shadow: 0 10px 20px rgba(0.5,0.5,0.5,0.5), 0 6px 6px rgba(0.5,0.5,0.5,0.5) !important;
 }
 
-.parent {
-   filter: drop-shadow(-0.1rem -0.1rem 0.4rem rgba(19, 232, 54));
-     -webkit-filter: drop-shadow(-0.1rem -0.1rem 0.4rem rgba(19, 232, 54));
-  -moz-filter: drop-shadow(-0.1rem -0.1rem 0.4rem rgba(19, 232, 54));
-  -os-filter: drop-shadow(-0.1rem -0.1rem 0.4rem rgba(19, 232, 54));
-  -ms-filter: drop-shadow(-0.1rem -0.1rem 0.4rem rgba(19, 232, 54));
-  -o-filter: drop-shadow(-0.1rem -0.1rem 0.4rem rgba(19, 232, 54));
-}
-
+<!-- Codes for paragraph -->
 .paragraph {
   color: #fca400;
   margin-left: 15px;
@@ -213,19 +191,23 @@ font-family: 'Sofia', cursive,  Comic Sans MS, Arial Narrow;
 
 } 
 .abouth3 {
-  font-family: 'Sofia', cursive;
-  text-align: right;
+ text-align: right;
   padding-right: 35px;
-  color: #fca400;
 }
+<!-- Pseudo class for paragraph when user hovers over it -->
 .paragraph:hover {
   text-shadow: 2px 2px 8px #FF0000;
+      <!-- Vendor prefixes to ensure browser comptability for older versions of Chrome, internet explorer, mozilla, opera and safari -->
   -webkit-text-shadow: 2px 2px 8px #FF0000;
   -moz-text-shadow: 2px 2px 8px #FF0000;
   -os-text-shadow: 2px 2px 8px #FF0000;
   -o-text-shadow: 2px 2px 8px #FF0000;
   -ms-text-shadow: 2px 2px 8px #FF0000;
 }
+
+ <!-- MEDIA QUERIES FOR RESPONSIVENESS --> 
+<!-- If the browser's width is more than 500px -->  
+
 @media screen and (min-width: 1000px) {
  .paragraph {
    font-size: 22px;
@@ -235,14 +217,7 @@ font-family: 'Sofia', cursive,  Comic Sans MS, Arial Narrow;
   .avatar1 {
   display: block;
   text-align: left;
- 
-  background-size: contain;
-  clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -webkit-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -moz-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -ms-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -os-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -o-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
+ background-size: contain;
   width: 200px;
  height: 200px;
   margin-left: -3px;
@@ -254,30 +229,23 @@ font-family: 'Sofia', cursive,  Comic Sans MS, Arial Narrow;
   text-align: left;
    background: url('https://www.w3schools.com/w3images/avatar2.png');
   background-size: contain;
-  clip-path: polygon(27% 0, 73% 0, 100% 27%, 100% 73%, 73% 100%, 26% 100%, 0 70%, 0 26%);
-    -webkit-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -moz-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -ms-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -os-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -o-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-  width: 200px;
- height: 200px;
-  }
+    }
 .form1 {
    width: device-width;
-    
-    border: 5px solid green;
+    border: 5px solid #786f5b;
     border-radius: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 10px;
-    box-shadow: 0 0px 25px 0 #13e836, 2px 8px 20px 0 #13e836;
-  -ms-box-shadow: 0 0px 25px 0 #13e836, 2px 8px 20px 0 #13e836;
+       <!-- Vendor prefixes to ensure browser comptability for older versions of internet explorer -->
+    box-shadow: 0 0px 25px 0 #524f48, 2px 8px 20px 0 #524f48;
+  -ms-box-shadow: 0 0px 25px 0 #524f48, 2px 8px 20px 0 #524f48;
     margin: 10px;
     
 }
+    <!-- Code for horizontal and vertical line in form1 -->
   .vlhr {
- border-left: 5.2px solid green;
+ border-left: 5.2px solid #786f5b;
 height: 419px;
   position: absolute;
   
@@ -292,7 +260,8 @@ font-size: 30px;
   }
  
 }
-
+ <!-- MEDIA QUERIES FOR RESPONSIVENESS --> 
+<!-- If the browser's width is between 999px and 701px do the following -->  
 @media screen and (max-width: 1000px) and (min-width: 700px) {
   .paragraph {
     font-size: 17px;
@@ -303,12 +272,7 @@ font-size: 30px;
   text-align: left;
  
   background-size: contain;
-  clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-  -webkit-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -moz-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -ms-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -os-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -o-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
+
   width: 200px;
  height: 200px;
   margin-left: -3px;
@@ -319,13 +283,7 @@ font-size: 30px;
   display: block;
   text-align: left;
    background: url('https://www.w3schools.com/w3images/avatar2.png');
-  background-size: contain;
-  clip-path: polygon(27% 0, 73% 0, 100% 27%, 100% 73%, 73% 100%, 26% 100%, 0 70%, 0 26%);
-    -webkit-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -moz-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -ms-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -os-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -o-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
+  
   width: 200px;
  height: 200px;
   
@@ -333,21 +291,22 @@ font-size: 30px;
 .form1 {
    width: device-width;
     
-    border: 5px solid green;
+    border: 5px solid #786f5b;
     border-radius: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 10px;
-    box-shadow: 0 0px 25px 0 #13e836, 2px 8px 20px 0 #13e836;
-   -ms-box-shadow: 0 0px 25px 0 #13e836, 2px 8px 20px 0 #13e836;
+    box-shadow:  0 0px 25px 0 #524f48, 2px 8px 20px 0 #524f48;
+       <!-- Vendor prefixes to ensure browser comptability for older versions of internet explorer -->
+   -ms-box-shadow:  0 0px 25px 0 #524f48, 2px 8px 20px 0 #524f48;
   margin: 10px;
     
 }
+    <!-- Code for horizontal and vertical line in form1 -->
   .vlhr {
- border-left: 5.2px solid green;
+ border-left: 5.2px solid #786f5b;
 height: 419px;
   position: absolute;
-  
   left: 240px;
   top: 0px;
   margin-top: 92px;
@@ -355,7 +314,8 @@ height: 419px;
 }
   
 }
-
+ <!-- MEDIA QUERIES FOR RESPONSIVENESS --> 
+<!-- If the browser's width is between 699px and 597px -->  
 @media screen and (max-width: 700px) and (min-width: 596px) {
   .paragraph {
     font-size: 14.5px;
@@ -366,12 +326,6 @@ height: 419px;
   text-align: left;
  
   background-size: contain;
-  clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-  -webkit-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -moz-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -ms-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -os-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -o-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
   width: 200px;
  height: 200px;
   margin-left: -3px;
@@ -383,12 +337,6 @@ height: 419px;
   text-align: left;
    background: url('https://www.w3schools.com/w3images/avatar2.png');
   background-size: contain;
-  clip-path: polygon(27% 0, 73% 0, 100% 27%, 100% 73%, 73% 100%, 26% 100%, 0 70%, 0 26%);
-    -webkit-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -moz-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -ms-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -os-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -o-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
   width: 200px;
  height: 200px;
   
@@ -396,18 +344,20 @@ height: 419px;
 .form1 {
    width: device-width;
     
-    border: 5px solid green;
+    border: 5px solid #786f5b;
     border-radius: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 10px;
-    box-shadow: 0 0px 25px 0 #13e836, 2px 8px 20px 0 #13e836;
-   -ms-box-shadow: 0 0px 25px 0 #13e836, 2px 8px 20px 0 #13e836;
+    box-shadow: 0 0px 25px 0 #524f48, 2px 8px 20px 0 #524f48;
+       <!-- Vendor prefixes to ensure browser comptability for older versions of internet explorer -->
+   -ms-box-shadow: 0 0px 25px 0 #524f48, 2px 8px 20px 0 #524f48;
   margin: 10px;
     
 }
+    <!-- Code for horizontal and vertical line in form1 -->
   .vlhr {
- border-left: 5.2px solid green;
+ border-left: 5.2px solid #786f5b;
 height: 419px;
   position: absolute;
   
@@ -421,21 +371,13 @@ height: 419px;
     font-size: 3vw;
   }
 }
-
+ <!-- MEDIA QUERIES FOR RESPONSIVENESS --> 
+<!-- If the browser's width is less than 595px -->  
 @media screen and (max-width: 595px) {
  
   .avatar1 {
-   
-  text-align: none;
-  
+   text-align: none;
   background-size: initial;
-  clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-  -webkit-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -moz-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -ms-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -os-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -o-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-  
     float: left;
   width: 50%;
   padding: 5px;
@@ -445,42 +387,22 @@ height: 419px;
    display: flex;
   text-align: none;
    background-size: initial;
-  clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -webkit-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -moz-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -ms-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -os-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -o-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
- float: left;
+  float: left;
   width: 50%;
   padding: 5px;
     box-sizing: border-box;
   }
-  .avatar2 {
-    display: flex;
-  text-align: none;
-   background-size: initial;
-  clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -webkit-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -moz-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -ms-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -os-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
-    -o-clip-path: polygon(27% 0, 74% 0, 100% 30%, 100% 73%, 73% 100%, 27% 100%, 0 73%, 0 30%);
- float: left;
-  width: 50%;
-  padding: 5px;
-    box-sizing: border-box;
-    
-  }
+  
   .form1 {
     width: device-width;
      margin-left: 10px;
       margin-right: 10px;
  float: left;
-    border: 5px solid green;
+    border: 5px solid #786f5b;
     border-radius: 20px;
-        box-shadow: 0 0px 10px 0 #13e836, 0.7px 4px 13px 0 #13e836;
-    -ms-box-shadow: 0 0px 10px 0 #13e836, 0.7px 4px 13px 0 #13e836;
+        box-shadow: 0 0px 25px 0 #524f48, 2px 8px 20px 0 #524f48;
+         <!-- Vendor prefixes to ensure browser comptability for older versions of internet explorer -->
+    -ms-box-shadow: 0 0px 25px 0 #524f48, 2px 8px 20px 0 #524f48;
     border-radius: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
