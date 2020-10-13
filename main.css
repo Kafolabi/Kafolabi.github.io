@@ -59,7 +59,7 @@ a:hover {
         font-weight: 500;
         color: #48505e;
         margin: 8vw 3vw 0 3vw;
-        padding: 10px;
+        padding: 1vw;
    text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
        <!-- Vendor prefixes to ensure browser comptability for older versions of Chrome, internet explorer, mozilla, opera and safari -->
        -webkit-text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
