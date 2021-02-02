@@ -1,0 +1,182 @@
+/* CSS code for Home Page of website */
+/* Code for body of Home page */
+body {
+ overflow-x: hidden;
+ /* Vendor prefixes for microsoft, safari and Opera browsers */
+-ms-overflow-x: hidden;
+-os-overflow-x: hidden;
+-o-overflow-x: hidden;
+overflow-y: auto;
+-ms-overflow: auto;
+margin: 0;
+  }
+h3 {
+  width: 100%;
+ 
+}
+h1 {
+  text-align: center;
+}
+* {
+   font-family: 'Noto Sans', sans-serif;
+  color: #48505e;
+  box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+  }
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+  }
+  
+ 
+nav {
+background-color: rgb(82, 86, 89);
+}
+.navbar {
+  padding: 0px !important;
+background-color: #cf6617;  
+}
+.navbar-toggler {
+  padding: 9.5px !important;
+}
+a:hover {
+  background-color: #4c635d;
+
+}
+.navbar-brand:hover {
+  background-color: initial;
+}
+/* Horizontal rule for image */
+.hr {
+  border-top: 2px solid #1050b3; 
+}
+/* Image screen resolution */
+    
+/* MEDIA QUERIES FOR RESPONSIVENESS */ 
+/* If the browser's width is less than 767px */   
+@media screen and (max-width: 767px) {
+  #main {
+        font-size: 10vw;
+      padding-top: 1vw;
+      color: #48505e;
+       font-family: 'Noto Sans', sans-serif;
+      font-weight: 500;
+      margin: 65px 3vw 0 3vw;
+    
+    }
+       
+  .image {
+   width: 100%;
+      height: auto;
+       }
+}
+
+/* If the browser's width is more than 767px */
+  @media screen and (min-width: 767px) {
+  #main {
+  font-size: 4rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+  color: #48505e;
+  margin: 5vw 3vw 0 3vw;
+  padding: 15px;
+   text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+       /* Vendor prefixes to ensure browser comptability for older versions of Chrome, internet explorer, mozilla, opera and safari */
+       -webkit-text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+       -ms-text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+       -moz-text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+       -os-text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+       -o-text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+     #title {
+      font-size: 50px;
+    color: #48505e;
+       font-family: 'Noto Sans', sans-serif;
+       display: block;
+       
+        line-height: ;
+         padding: 3px;
+  }
+      
+      .image {
+        text-align: center;
+   width: 800px;
+       height: auto;
+        margin: auto;
+        display: block;
+       }
+    }
+    /* Code that is common in all browser widths */
+   #main {
+     text-align: center;
+     display: block;
+}
+@media screen and (min-width: 767px) and (max-width: 853px) {
+  #main {
+    font-size: 55px; 
+  padding-top: 20px; 
+  }
+}
+   
+ /* Common code in all paragraphs */
+    p {
+      margin: 10px;
+      font-family: 'Noto Sans', sans-serif;
+    }
+    /* MEDIA QUERIES FOR RESPONSIVENESS */
+/* If the browser's width is more than 500px */ 
+ @media screen and (min-width: 500px) {
+  p {
+            font-size: 30px;
+      }
+        .whatsapp {
+          font-size: 20px;
+        }
+    }
+ 
+/* If the browser's width is less than 500px */  
+      @media screen and (max-width: 500px) {
+       p {
+      font-size: 17px;
+   }
+  .whatsapp {
+   font-size: 5vw;
+ }
+   }
+@media screen and (min-width: 1130px) {
+p {
+  font-size: 2vw;
+}
+  }
+    .panchors {
+    /* Artificial underline */
+    text-decoration: none !important;
+  border-bottom: #EA215A 0.125em solid;
+      }
+.panchors:hover {
+  background-color: initial;
+}
+ .whatsapp {
+  font-family: 'Noto Sans', sans-serif;
+        font-weight: 500;
+        color: #48505e;
+  border: 2px solid #61e310;
+  padding: 10px 0px 10px 0px;
+
+   position: fixed;
+  top: 50%;
+  left: 0.15vw; 
+   width: 55px;
+   height: 55px;
+ text-decoration: none !important;
+   background-image: repeating-linear-gradient(
+  45deg, #1bcf30, #1bcf30 10px, #38ab46 10px, #38ab46 20px);
+}
+
+#heading {
+  padding: 10px !important;
+  text-align: center !important;
+  text-shadow: 0 10px 20px rgba(0.5,0.5,0.5,0.5), 0 6px 6px rgba(0.5,0.5,0.5,0.5) !important;
+}
